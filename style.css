@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(69, 87, 192);
+    background-color:rgb(142, 145, 167);
     margin: 0;
     padding: 0;
     font-family:'Courier New', Courier, monospace
@@ -15,16 +15,16 @@ li{
 }
 
 header {
-    background-color: rgb(196, 183, 231);
+    background-color: rgb(241, 146, 2);
     height: 100px;
 }
 
-h1 {
+h1{
     float: left;
     margin-left: 500px;
     margin-right:50px;
-    color: rgb(0, 0, 0);
-    text-shadow: 4px 4px 4px rgb(4, 107, 243);
+    color: rgb(17, 0, 255);
+    text-shadow: 4px 4px 4px rgb(42, 140, 153);
 }
 
 nav li{
@@ -43,21 +43,23 @@ nav li a {
 }
 
 nav li a:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(25, 9, 248);
     text-decoration:underline;
     font-size: 22px;
     
 }
 
 main {
-    width: 500x;
-    margin: 30px auto;
-    min-height: 700px;
-}
+    width: 960x;
+    margin: 10px auto;
+    min-height: 550px;
+    border: 3px solid black;
+    /* border-radius: 25px; */
+
 
 
 main li img{
-    height: 300px;
+    height: 150px;
     width: 300px;
 }
 
