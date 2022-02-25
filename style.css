@@ -51,32 +51,28 @@ nav li a:hover{
 
 main {
     width: 960x;
+    height: max-content;
     margin: 10px auto;
     min-height: 550px;
     border: 3px solid black;
-    /* border-radius: 25px; */
+    /* border-radius: 25px; */  
 
-
-
-main li img{
-    height: 150px;
-    width: 300px;
 }
 
-main li{
+main li {
     float: left;
     margin-right: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-main li:last-child{
-    margin-right:0px;
-}
+
 
 main p{
-    font: size 500px;px;
-    margin-top: 30px;
+    float: left; 
+    font: size 500px;
+    margin: 30px;
+    min-height:auto
 }
 
 footer{
@@ -90,4 +86,12 @@ footer p{
     padding-top: 50px;
     font-size:18px;
     font: weight 600;
+}
+
+image {
+    margin:auto;
+}
+
+img {
+    margin:auto;
 }
